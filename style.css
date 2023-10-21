@@ -8,3 +8,19 @@ h1{
 .name-highlight{
     color: orange;
 }
+.half-width{
+    width: 40%;
+    float: left;
+    margin-top: 5%;
+    margin-left:5% ;
+}  
+.half-width-pp{
+    width: 50%;
+    float: left;
+    margin-top: 5%;
+    margin-right:5% ;
+
+}
+.half-width-pp img{
+width: 100%;
+}
