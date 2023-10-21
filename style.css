@@ -12,8 +12,9 @@ p{
 section{
     height: 500px;
     padding-bottom: 150px;
+    position: relative;
 }
-.name-highlight{
+.orange-highlight{
     color: orange;
 }
 .half-width{
@@ -82,4 +83,41 @@ width: 100%;
     padding: 10px 20px;
     font-weight: bold;
     border-radius: 5px;
+}
+.experiences{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.half3{
+    width: 39%;
+    float: left;
+    margin-left:5%;
+    
+    padding-top: 5px;
+    padding-left: 15px;
+}  
+.exp{
+    margin-left: 5%;
+    margin-top: 10px;
+}
+.half3{
+    box-shadow: 10px 10px 50px gray;
+    border-radius: 10px;
+    height: 50%;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightsalmon,tomato);
+    border-image-slice: 1;
+}
+
+#baby-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
 }
