@@ -1,9 +1,17 @@
 body{
+    margin: 0;
     font-family: 'Poppins',sans-serif;
 }
-h1{
+p{
+    color: dimgray;
+}
+.half-width h1{
     font-size: 50px ;
     font-family: 'Playpen Sans', cursive;
+}
+section{
+    height: 500px;
+    padding-bottom: 150px;
 }
 .name-highlight{
     color: orange;
@@ -11,16 +19,67 @@ h1{
 .half-width{
     width: 40%;
     float: left;
-    margin-top: 5%;
-    margin-left:5% ;
+    margin-left:5%;
+    margin-top: 1%;
 }  
+.half-width p{
+    padding-right: 5px;
+    padding-bottom: 20px;
+    }
 .half-width-pp{
-    width: 50%;
+    width: 49%;
     float: left;
-    margin-top: 5%;
-    margin-right:5% ;
-
+    margin-top: 1%;
+    margin-left:5% ;
+    padding-right: 1%;
 }
 .half-width-pp img{
 width: 100%;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+
+}
+.hire-btn{
+    background-image: linear-gradient(45deg,#007991,#78ffd6);
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.half{
+    width: 40%;
+    float: left;
+    margin-left:3%;
+    margin-right:2%;
+    margin-top: 10%;
+}  
+.half p{
+    padding-right: 60px;
+    padding-bottom: 20px;
+    }
+.half-pp{
+    width: 49%;
+    float: left;
+    margin-top: 1%;
+    margin-left:5% ;
+}
+.half-pp img{
+width: 100%;
+}
+.second-banner{
+    background-image: url(images/2nd-banner.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+.resume-btn{
+    background-image: linear-gradient(45deg,#FF512F,#DD2476);
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
 }
