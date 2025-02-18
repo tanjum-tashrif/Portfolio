@@ -1,0 +1,255 @@
+body{
+    margin: 0;
+    font-family: 'Poppins',sans-serif;
+}
+p{
+    color: dimgray;
+    text-align: justify;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+    height: 500px;
+    padding-bottom: 100px;
+}
+.orange-highlight{
+    color: orange;
+}
+/*top banner part*/
+
+.half-width h1{
+    font-size: 50px ;
+    font-family: 'Playpen Sans', cursive;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left:5%;
+    margin-top: 1%;
+}  
+.half-width p{
+    padding-right: 5px;
+    padding-bottom: 20px;
+    }
+.half-width-pp{
+    width: 49%;
+    float: left;
+    margin-top: 1%;
+    margin-left:5% ;
+    padding-right: 1%;
+}
+.half-width-pp img{
+width: 100%;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+
+}
+.hire-btn{
+    background-image: linear-gradient(45deg,#007991,#78ffd6);
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/*second part*/
+
+.half{
+    width: 40%;
+    float: left;
+    margin-left:3%;
+    margin-right:2%;
+    margin-top: 10%;
+}  
+.half p{
+    padding-right: 60px;
+    padding-bottom: 20px;
+    }
+.half-pp{
+    width: 49%;
+    float: left;
+    margin-top: 1%;
+    margin-left:5% ;
+}
+.half-pp img{
+width: 100%;
+}
+.second-banner{
+    background-image: url(images/2nd-banner.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
+.resume-btn{
+    background-image: linear-gradient(45deg,#FF512F,#DD2476);
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/*Experince part*/
+
+.experiences{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.exp{
+    margin-left: 5%;
+    margin-top: 10px;
+}
+.half3{
+    width: 39%;
+    float: left;
+    margin-left:5%;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}  
+.half3{
+    box-shadow: 10px 10px 50px gray;
+    border-radius: 10px;
+    height: 50%;
+}
+.half3 img{
+    width: 100%;
+}
+#full-stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,lightsalmon,tomato);
+    border-image-slice: 1;
+}
+#baby-dev{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
+}
+
+
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+p {
+    color: dimgray;
+    text-align: justify;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+.orange-highlight {
+    color: orange;
+}
+
+/* Top banner styling */
+.half-width h1 {
+    font-size: 50px;
+    font-family: 'Playpen Sans', cursive;
+}
+
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 1%;
+}
+
+.half-width-pp {
+    width: 49%;
+    float: left;
+    margin-top: 1%;
+    margin-left: 5%;
+}
+
+.half-width-pp img {
+    width: 100%;
+}
+
+.top-banner {
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.hire-btn {
+    background-image: linear-gradient(45deg, #007991, #78ffd6);
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* Second banner styling */
+.half {
+    width: 40%;
+    float: left;
+    margin-left: 3%;
+    margin-right: 2%;
+    margin-top: 10%;
+}
+
+.half-pp {
+    width: 49%;
+    float: left;
+    margin-top: 1%;
+    margin-left: 5%;
+}
+
+.half-pp img {
+    width: 100%;
+}
+
+.second-banner {
+    background-image: url(images/2nd-banner.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.resume-btn {
+    background-image: linear-gradient(45deg, #FF512F, #DD2476);
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+/* Experience section */
+.experiences {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.exp {
+    margin-left: 5%;
+    margin-top: 10px;
+}
+
+.half3 {
+    width: 39%;
+    float: left;
+    margin-left: 5%;
+    padding: 15px;
+    box-shadow: 10px 10px 50px gray;
+    border-radius: 10px;
+}
+
+footer p {
+    text-align: center;
+    font-size: 12px;
+}
